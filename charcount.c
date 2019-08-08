@@ -3,7 +3,7 @@ int main()
 {
 char s[10000];
 long long int n,count=0,i;
-scanf("%[^\n]",&s);
+scanf("%[^\n]s",&s);
 n=strlen(s);
 for(i=0;i<n;i++)
 {
